@@ -1,0 +1,29 @@
+{
+  "name": "mt5-analytics",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "echarts": "^6.0.0",
+    "lucide-vue-next": "^0.468.0",
+    "vue": "^3.5.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "playwright": "^1.64.1",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.3",
+    "vite": "^7.0.0",
+    "vue-tsc": "^3.3.13"
+  },
+  "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81"
+}
